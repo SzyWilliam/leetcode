@@ -13,7 +13,7 @@ public:
         return result;
     }
 
-    void backtrack(vector<vector<int>>& result, vector<int>& current, int starts_num, int  current_sum, int remaining_num, int target){
+    void backtrack(vector<vector<int>>& result, vector<int>& current, int starts_num, int current_sum, int remaining_num, int target){
         if(remaining_num == 0 and target == current_sum){
             result.push_back(current);
         }else if(remaining_num < 0 or target < current_sum){
