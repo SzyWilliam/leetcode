@@ -9,5 +9,6 @@
 #include <assert.h>
 #include <stack>
 #include <sstream>
+#include <unordered_map>
 #define P(x) cout << #x << " = " << x << endl;
 using namespace std;
